@@ -17,7 +17,6 @@ export class CreateUserDto {
   readonly address: string;
   @IsNotEmpty()
   @IsString()
-  @IsPhoneNumber()
   readonly phone: string;
   @IsNotEmpty()
   @IsString()
